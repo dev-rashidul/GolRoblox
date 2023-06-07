@@ -49,7 +49,12 @@
 /* Min Width 300px and Max Width 767px */
 
 @media (min-width: 300px) and (max-width: 767px) {
-  .slick-active img {
-    height: initial;
-  }
+
+.hero-slide img {
+  height: 180px;
+}
+
+.slick-active img {
+  height: 200px;
+}
 }
