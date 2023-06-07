@@ -51,10 +51,10 @@
 @media (min-width: 300px) and (max-width: 767px) {
 
 .hero-slide img {
-  height: 180px;
+  height: 120px;
 }
 
 .slick-active img {
-  height: 200px;
+  height: 140px;
 }
 }
