@@ -1,0 +1,55 @@
+/* Min Width 300px and Max Width 991px */
+
+@media (min-width: 300px) and (max-width: 991px) {
+  .nav-menu {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    max-width: 300px;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    background: #ffffff;
+    transition: left 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    align-items: start !important;
+    padding-top: 65px;
+    padding-left: 50px;
+  }
+
+  .nav-menu ul li {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+}
+
+/* Min Width 1400px and Max Width 1599px */
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+}
+
+/* Min Width 1200px and Max Width 1399px */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Min Width 992px and Max Width 1199px */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Min Width 300px and Max Width 767px */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .slick-active img {
+    height: initial;
+  }
+}
